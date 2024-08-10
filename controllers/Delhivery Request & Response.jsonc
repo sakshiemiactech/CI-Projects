@@ -1,0 +1,52 @@
+{
+    "_engineData": {
+        "calledAt": "Not available"
+    },
+    "response": {
+        "status": 200,
+        "headers": {
+            "date": "Sat, 16 Dec 2023 09:37:33 GMT",
+            "content-type": "application/json",
+            "transfer-encoding": "chunked",
+            "connection": "close",
+            "server": "nginx",
+            "expires": "Sat, 16 Dec 2023 09:37:33 GMT",
+            "vary": "Accept, Cookie",
+            "last-modified": "Sat, 16 Dec 2023 09:37:33 GMT",
+            "allow": "POST, OPTIONS",
+            "cache-control": "max-age=0",
+            "x-frame-options": "SAMEORIGIN",
+            "strict-transport-security": "max-age=31536000; includeSubdomains"
+        },
+        "body": {
+            "cash_pickups_count": 0,
+            "package_count": 0,
+            "upload_wbn": null,
+            "replacement_count": 0,
+            "rmk": "shipment list contains no data.",
+            "pickups_count": 0,
+            "packages": [],
+            "cash_pickups": 0,
+            "cod_count": 0,
+            "success": false,
+            "prepaid_count": 0,
+            "error": true,
+            "cod_amount": 0
+        },
+        "_engineData": {
+            "calledAt": "Not available"
+        }
+    },
+    "request": {
+        "url": "https://track.delhivery.com/api/cmu/create.json",
+        "headers": {
+            "Authorization": "Token b9e71a86403a97df274d41ae77c98026b164b6bf",
+            "User-Agent": "Make/production"
+        },
+        "method": "POST",
+        "body": {
+            "format": "json",
+            "data": "{\"shipments\": [{\"add\": \"Sharda colony Bhatt Mewada Road Opp. Reliance Trends and Hotel Utsav\",\"phone\": 8460899720,\"payment_mode\": \"Pre-paid\",\"name\": \"Yuvraj Singh Rathore\",\"seller_name\": \"Macobs Technologies\",\"return_city\": \"A-305, Vaishali Nagar behind national handloom, Jaipur, 302021\",\"return_phone\": \"8209308533\",\"product_quantity\": \"1\",\"cod_amount\": 999,\"return_country\": \"India\",\"pin\":  327001,\"products_desc\": \"Replacement Blade for 1.0\",\"return_add\": \"A-305, Vaishali Nagar behind national handloom, Jaipur, 302021\",\"total_amount\": 999,\"seller_add\": \"A-305, Vaishali Nagar behind national handloom, Jaipur, 302021\",\"country\": \"India\",\"return_pin\":302021,\"extra_parameters\": {  \"return_reason\": \"\"},\"client\": \"Macobs Technologies\",\"return_name\": \"Macobs Technologies\",\"order\": \"MR114626\",\"quantity\": \"1\"}],\"pickup_location\":{\"city\": \"Jaipur\",\"name\": \"Macobs Technologies\",\"pin\": \"302021\",\"country\": \"India\",\"phone\": \"8209308533.\",\"add\": \"A-305, Vaishali Nagar behind national handloom, Jaipur, 302021\"}}"
+        }
+    }
+}
